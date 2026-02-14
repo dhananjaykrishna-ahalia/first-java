@@ -32,6 +32,7 @@ public class DataInitializer {
             hobbyServices.addHobby(new Hobby("Gaming", "Video games can enhance hand-eye coordination and reflexes."));
             hobbyServices.addHobby(new Hobby("Cooking", "Cooking is an art that encourages creativity and mindfulness."));
             hobbyServices.addHobby(new Hobby("Gardening", "Gardening improves mood, reduces anxiety, and provides physical exercise."));
+            hobbyServices.addHobby(new Hobby("Traveling", "Traveling broadens horizons, fosters cultural understanding, and creates lasting memories."));
 
             System.out.println("✅ 5 Mock Hobbies successfully loaded into HobbyServices!");
         };
