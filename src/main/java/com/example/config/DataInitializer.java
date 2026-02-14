@@ -22,6 +22,7 @@ public class DataInitializer {
             userServices.addUser(new Users(103, "Viewer", "Guest Viewer with read-only access."));
             userServices.addUser(new Users(104, "Moderator", "Community Moderator for reviewing comments."));
             userServices.addUser(new Users(105, "Analyst", "Data Analyst for viewing traffic reports."));
+            userServices.addUser(new Users(106, "Contributor", "Content Contributor for submitting articles."));
 
             System.out.println("✅ 5 Mock Users successfully loaded into UserServices!");
 
